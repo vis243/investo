@@ -1,0 +1,9 @@
+CREATE TABLE `hindalco_1d` (
+  `datetime` text,
+  `close` double DEFAULT NULL,
+  `high` double DEFAULT NULL,
+  `low` double DEFAULT NULL,
+  `open` double DEFAULT NULL,
+  `volume` int DEFAULT NULL,
+  `instrument` text
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
